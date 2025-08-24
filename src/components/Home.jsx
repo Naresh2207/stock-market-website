@@ -12,7 +12,7 @@ const Home = () => {
       {/* Content Section */}
       <div className="content1">
         <h1>WELCOME TO OUR WEBSITE 📈</h1>
-        <h2>🏦</h2>
+        <h2>🏦 </h2>
       </div>
 
       {/* Sidebar Section */}
