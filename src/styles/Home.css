@@ -1,0 +1,140 @@
+.background {
+  background-image: url("/public/bk-img2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+.content1 > h1 {
+  text-align: center;
+  margin-top: 9%;
+  margin-left: 16%;
+  color: rgb(8, 79, 107);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  text-shadow: 0 0 12px rgb(61, 57, 57);
+}
+.content1 > h2 {
+  text-align: center;
+  margin-top: -4%;
+  margin-left: 47%;
+  font-size: 135px;
+  text-shadow: 0 0 19px rgb(1, 6, 7);
+  width: 0%;
+}
+
+/* sidebar */
+
+.sidebar {
+  width: 16%;
+  height: 650px;
+  max-height: 200%;
+  background-color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.6;
+  box-shadow: 0 0px 9px black;
+}
+
+ul > li,
+a {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 15%;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+  list-style-type: none;
+  /* position: fixed; */
+}
+
+li > a:hover {
+  color: rgb(208, 211, 51);
+}
+
+.sidebar > h3 {
+  text-align: center;
+  color: rgb(3, 81, 112);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sidebar > p {
+  margin-top: 0%;
+}
+
+/* ✅ Mobile Responsive */
+@media screen and (max-width: 1280px) {
+  .sidebar {
+    width: 20%;
+    height: auto;
+  }
+
+  .sidebar > h3,
+  li {
+    margin-top: 40%;
+  }
+
+  .sidebar > ul li a {
+    margin-left: -13%;
+  }
+  .content1 > h1 {
+    font-size: 40px;
+    margin-left: 22%;
+    margin-top: 8%;
+  }
+  .content1 > h2 {
+    font-size: 100px;
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 25%;
+  }
+  .sidebar ul li a {
+    font-size: 14px;
+    margin-left: -36%;
+  }
+  .content1 > h1 {
+    font-size: 28px;
+    margin-left: 28%;
+    margin-top: 15%;
+  }
+  .content1 > h2 {
+    font-size: 70px;
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 35%;
+    height: auto;
+  }
+  .sidebar ul li a {
+    font-size: 12px;
+    margin-left: -16%;
+    margin-top: 50%;
+  }
+  .content1 > h1 {
+    font-size: 22px;
+    margin-left: 38%;
+    margin-top: 30%;
+  }
+  .content1 > h2 {
+    font-size: 50px;
+    margin-left: 61%;
+  }
+}

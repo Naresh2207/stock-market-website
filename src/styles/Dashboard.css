@@ -1,0 +1,84 @@
+
+
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard-container>h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-box > input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-box> button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-box >button:hover {
+  background: #0056b3;
+}
+
+.graph {
+  text-align: center;
+  margin: 30px ;
+}
+
+.graph>img {
+  width: 50%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+.stock-list {
+  margin-top: 30px;
+}
+
+.table-dash {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rowss > th, .rowss > td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.rowss> th {
+  background: #007bff;
+  color: #fff;
+}
+
+.profit1 {
+  color: green;
+  font-weight: bold;
+}
+
+.loss1 {
+  color: red;
+  font-weight: bold;
+}
